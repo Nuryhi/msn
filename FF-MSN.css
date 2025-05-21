@@ -198,3 +198,205 @@ header{
 
 /*--------Contact--------*/
 
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+    border-top: #fff solid 1px;
+    padding: 10px 50px;
+    background-color: rgb(82, 84, 51);
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 93%;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.Note{
+    display: flex;
+    flex-direction: column;
+}
+
+.viki{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px;
+}
+
+.viki a:hover{
+    color: aqua;
+}
+
+.label{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nt{
+    background-color: #242d2c;
+    border-radius: 10px;
+    font-size: 15px;
+    min-width: 240px;
+    min-height: 35px;
+    position: relative;
+    transition: color 5s ease-in-out;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.button{
+    background-color: #0b5527;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    min-width: 240px;
+    min-height: 35px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.4s linear;
+}
+
+.button:hover{
+    color: darkred;
+    background-color: #090f85;
+}
+
+/*--------Responsive--------*/
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .What {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px auto;
+        width: 95%;
+        padding-top: 80px;
+    }
+
+    .MSN img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .Barcelona {
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+        overflow: visible;
+    }
+
+    .Barcelona img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .Barcelona p {
+        font-size: 16px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .Messi, .Suarez, .Neymar {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Messi img, .Suarez img, .Neymar img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 10px;
+    }
+
+    .Messi h1, .Suarez h1, .Neymar h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .Messi p, .Suarez p, .Neymar p {
+        font-size: 14px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .mainfooter {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .viki {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .viki a {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .Note {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .label {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .nt {
+        width: 100%;
+        font-size: 14px;
+        min-height: 30px;
+        margin: 10px 0;
+    }
+
+    .button {
+        width: 100%;
+        font-size: 14px;
+        min-height: 35px;
+    }
+}
